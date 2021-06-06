@@ -1,97 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TEA</title>
-  </head>
-  <body>
-    <!-- Tea logo is shown , and id namme is assigned, to refer back to top-->
-    <img src="tea.jpg" id="logo" alt="tea logo" />
-    <br />
-    <!-- Heading vth types of tea -->
-    <h1>Types of Tea</h1>
-    <br />
-    <!--  4 links are created, like unordered list. dummy link is used here. -->
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="About us.html" target="_blank">About us</a></li>
-      <li><a href="Numbers.html" target="_blank">Numbers</a></li>
-      <li><a href="Contact.html" target="_blank">Contact</a></li>
-    </ul>
-    <br />
-    <!-- Tea powder big logo is shown -->
-    <img src="teapowder.jpg" width="60%" alt="tea powder" />
-    <!-- Feature products -->
-    <h1>Featured Products</h1>
-    <!-- 1. Irani Tea -->
-    <h2>Irani tea</h2>
-    <!-- Image  of Irani Tra -->
-    <img src="chai.jpeg" alt="Irani tea" />
-    <!-- To make paragraph look good, style function is used, and paragraph will come within 50% of the page -->
-    <p style="width: 50%">
-      There is an interesting story behind Irani chai's origin in Hyderabad. It
-      is said that Persian immigrants came to Mumbai's port in the last century
-      and prior to that in search of a better life and to trade. From Mumbai,
-      they migrated to Pune and then to Hyderabad. Along with them came the
-      concept of Irani chai.
-      <!-- link, for more details -->
-    </p>
-    <a href="https://en.wikipedia.org/wiki/Irani_caf%C3%A9" target="_blank"
-      >for more details</a
-    >
-    <!-- Assam Tea -->
-    <h2>Assam Tea</h2>
-    <img src="assamtea.jpg" alt="Assam tea" />
-    <p style="width: 50%">
-      The story of Assam tea is about being discovered by a Scottish adventurer,
-      Robert Bruce, who noticed tea-like plants growing wild near Rangpur. This
-      was in 1823 and Bruce was on a trading mission. Bruce was reportedly
-      directed by Maniram Dewan to Bessa Gam who was the local Singpho chief.
-      Bessa Gam showed Bruce how local tribesmen (known as the Singhpos) brewed
-      tea from leaves of this bush. Bruce made an arrangement with the tribal
-      chief to give him samples of these tea leaves with seeds, as he planned on
-      having them scientifically examined. Robert Bruce passed away a few years
-      later, never having seen this plant being properly classified.
-    </p>
-    <a href="https://en.wikipedia.org/wiki/Assam_tea" target="_blank"
-      >for more details</a
-    >
-    <!-- China Tea -->
-    <h2>China Tea</h2>
-    <img src="chinatea.jpeg" alt="china tea" />
-    <p style="width: 50%">
-      Tea is the national drink in China. In addition to its prominence in
-      Chinese culture, tea also claims many health benefits, making it a popular
-      drink worldwide. There are several types of Chinese tea, which vary in
-      degree of fermentation and processing.
-    </p>
-    <a href="https://en.wikipedia.org/wiki/Chinese_tea" target="_blank"
-      >for more details</a
-    >
-    <!-- Benefits of drinking Tea -->
-    <h2>Benefits of Drinking Tea</h2>
-    <img src="tealove.jpeg" alt="Tea love" />
-    <p style="width: 50%">
-      Research shows it may be the most effective tea in fighting various forms
-      of cancer thanks to its high level of antioxidants. White tea may also be
-      good for your teeth since it contains a high source of fluoride, catechins
-      and tannins that can strengthen teeth, fight plaque, and make it more
-      resistant to acid and sugar.
-    </p>
-    <a
-      href="https://www.pennmedicine.org/updates/blogs/health-and-wellness/2019/december/health-benefits-of-tea"
-      target="_blank"
-      >for more details</a
-    >
-    <!-- copy right subscript and  year also mention with that -->
-    <h3>copyright &copy;2021</h3>
-    <!-- If u click on this link, it should refer back to top. So, # and  Id attribute (logo) is used, and this Id name is assigned to the image element(at the starting of the body)-->
-    <br />
-    <br />
-    <br />
-    <br />
-    <a href="#logo">Back to top</a>
-  </body>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS Website </title>
+  <link rel="stylesheet" href="styleseanwebsite.css">
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+  <div class="top">
+
+    <img class="top-cloud" src="images/cloud.png" alt="mountain">
+
+    <h1>I'm Pradeep Chandra</h1>
+
+    <h2>a learner</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="mountain">
+    <img class="mountain" src="images/mountain.png" alt="mountain">
+
+
+
+  </div>
+
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/pradeep.png" alt="panja">
+      <h2>Hello.</h2>
+      <p class="m">I am a masters student at Rowan university,New jersey. Learning web development.</p>
+    </div>
+    <hr class="h">
+    <div class="skills-row">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="cooking" src="images/cooking.png" alt="">
+        <h3>Cooking</h3>
+        <p>Cooking is my favorite, at first it became mandatory later it became as a hobby. enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea aborum.</p>
+      </div />
+      <!-- images getting not spaced. So, dummy table is added and  spacing is done b/w images. -->
+      <!-- <table>
+
+      </table> -->
+      <div class="skill-row">
+        <img class="web" src="images/webdev.png" alt="web">
+        <h3 class="">Web developer</h3>
+        <p class="right">I searched what I want to become in Computer science field. First thought of data scientist. Later after knowing advantages and disadvantages I have choosen the path Web developer.</p>
+      </div>
+    </div>
+
+   </div>
+   <hr class="h">
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love movies,come join me.</h3>
+      <p>I watch all kinds of movie, there is no language barrier because I watched a lot of movies by just reading the subtitles.</p>
+
+      <!-- <input class="contact" type="button" name="button" value="CONTACT ME"  > -->
+      <a  type="button" class="contact" href="mailto:pradeepchandra@email.com">CONTACT ME</a>
+    </div>
+
+
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/pradeep-chandra-matam-10a188206/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://pradeep458.github.io/">Website</a>
+    <p class="surname">© 2021 pradeep Matam </p>
+  </div>
+
+</body>
+
 </html>
