@@ -1,0 +1,210 @@
+#title{
+  background-color: #005151;
+}
+body{
+    font-family: 'Montserrat-Thin', sans-serif;
+
+}
+/* white space on right side(mobile view) */
+html,body{
+    overflow-x: hidden;
+}
+/* title section */
+ h1{
+  font-family: 'Montserrat-Thin', sans-serif;
+  font-weight: 800;
+  font-size:2.8rem;
+  line-height:1.5;
+}
+.container-fluid{
+  padding:3% 10%;
+}
+.navbar-brand{
+position:relative;
+bottom:20px;
+}
+   /* navbar */
+     .navbar{
+       padding:0 0 4rem;
+     }
+
+.navbar-nav{
+  width:700px;
+}
+.navbar-collapse{
+  position: relative;
+    left: 150px;
+}
+.nav-item{
+  padding: 0 16px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+}
+
+ /* downloadbutton  */
+.downloadbutton{
+margin :22px 20px 0 0;
+}
+/* cigarpic(phone) */
+#cigarpic{
+  padding-top:20px  ;
+height:400px;
+  transform: rotate(25deg);
+position:absolute;
+  left:150px;
+}
+/* media query break point */
+@media (max-width:1319px){
+  /* centre aligning the text (h1) */
+  h1{
+    text-align: center;
+  }
+  /* making cigar pic to look better, when decreasing screen size. */
+  #cigarpic{
+    position:relative;
+    transform: rotate(0);
+   left:0px;
+  }
+
+}
+/* icons */
+#features{
+  padding:100px ;
+background: white;
+position: relative;
+ z-index:1;
+}
+.text-align{
+  font-size:3rem;
+text-align: center;
+}
+
+
+/* hover for trash icon */
+
+.fas:hover{
+    color: #A4AFB7;
+}
+.heading-icon{
+  font-size:1.5rem;
+  font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+padding-top: 1rem;
+color:#1C4766;
+}
+.para-icon{
+  font-size: 16px;
+  color: #8f8f8f;
+  width: 80%;
+margin: auto;
+}
+/* creating background circle , for both images */
+#teddy{
+  border-radius: 50%;
+}
+/* hover for teddy */
+#teddy:hover{
+  background: #407766;
+}
+#fish{
+   border-radius: 50%;
+}
+/* hover for fish */
+#fish:hover{
+  background-color: #5BACAB;
+}
+/* testimonals */
+#testimonials{
+  text-align: center;
+  padding:3rem 8rem 3rem 4rem;
+background-color:#005151;
+}
+/* changing color of h2 for 2sections to white */
+.whitetext-h2{
+  color:white;
+-webkit-text-stroke: 1px black;
+}
+.why-recycle{
+  padding-left: 200px;
+  margin:auto;
+}
+/* making border circle for both images */
+.smallbird{
+border-radius:50%;
+width:300px;
+height: 300px;
+}
+
+/* changing color of para of 2 sections */
+.para-white{
+  color:#ced4da;
+  font-size: 16px;
+height:100px;
+margin: auto;
+}
+/* heading of images */
+/* open Sans font-family added to
+ */
+@font-face {
+  font-family: cha ;
+  src: url("cha.otf") format("opentype") ;
+
+   }
+   h2{
+    font-family: cha ;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+     }
+/* media breakpoint for phone size images(nullifying padding-left) */
+@media(max-width:1350px){
+  .why-recycle{
+    padding-left: 0;
+    margin:auto;
+  }
+}
+
+/* slides(coursel images) */
+#slides{
+  padding: 4rem 0 4rem 0;
+  text-align: center;
+  /* background:#005151b8; */
+}
+/* setting the slide-image */
+.big-teddy{
+  border-radius: 5%;
+  width:600px;
+}
+/* adding color to both  arrows, which are on sides of the image */
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+/* font-size for h2 of both slides and pricing section*/
+#pricing .font-h2{
+  font-size: 3rem;
+}
+#slides .font-h2{
+  font-size:3.2rem;
+-webkit-text-stroke: 3px white;
+}
+/*  pricing cards */
+/* created container for aligning text in this entire card-deck to centre of screen. */
+#pricing{
+  background:  #005151;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* to align card-deck to centre of screen, specified (margin:auto) and to make cards occupy 100% of the screen, specified(width:100%) */
+.card-deck{
+  margin:2rem auto 2rem auto;
+ width:100%
+}
+/* footer */
+#footer{
+  text-align: center;
+padding-top: 50px;
+padding-bottom: 30px;
+/* background:#005151b8; */
+}

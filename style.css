@@ -1,0 +1,9 @@
+@font-face {
+  font-family: cha ;
+  src: url("Downloaded-Font-Family implementation\cha.otf") format("opentype") ;
+
+   }
+   h1{
+    font-family: cha ;
+
+     }
